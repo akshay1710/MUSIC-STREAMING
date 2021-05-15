@@ -121,9 +121,14 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
-STATIC_ROOT = CONTENT_DIR /'assert'
+
 STATIC_URL = '/static/'
-STATICFILES_DIR = CONTENT_DIR /'assert'
+STATICFILES_DIRS = [
+    CONTENT_DIR / "static",
+
+]
+
+print(STATICFILES_DIRS)
 
 # Default primary key field type
 # htps://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field

@@ -1,0 +1,40 @@
+body {
+    background-color: aqua;
+
+
+}
+
+h1 {
+    color: rgb(228, 114, 22);
+}
+
+div  label{
+    margin-top: 20rem;
+    margin-left: 10rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    font-size: 3rem;
+    color: rgb(167, 110, 26);
+}
+
+
+form input {
+    margin-top: 3rem;
+    margin-left: 12rem;
+    font-size: xx-large;
+}
+
+div {
+
+    background-color: rgb(99, 122, 185);
+    padding-top: 5rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+    margin-left: 25rem;
+    margin-right: 28rem;
+    
+
+}
