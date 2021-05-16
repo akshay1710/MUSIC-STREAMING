@@ -58,7 +58,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-               CONTENT_DIR /'template'
+            CONTENT_DIR / 'template'
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -125,10 +125,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     CONTENT_DIR / "static",
-
 ]
 
-print(STATICFILES_DIRS)
+# Staticfiles_dir used for save image logo content
+
 
 # Default primary key field type
 # htps://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
